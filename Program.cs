@@ -23,9 +23,9 @@ namespace cebolinha
             Console.ForegroundColor=ConsoleColor.DarkMagenta;
             string frase = Console.ReadLine();
             Console.Clear();
-            Console.WriteLine(frase = frase.Replace("r", "l"));
+            Console.WriteLine(frase = frase.Replace("r", "l").Replace("rr","l").Replace("RR","L").Replace("R","L"));
             Console.ForegroundColor=ConsoleColor.DarkBlue;
-            Console.WriteLine("Eita "+nome+", é você ou o cebolinha?");
+            Console.WriteLine(""+nome+", obrigada por ajudar. Agora você é o cebolinha :D ");
             Console.ResetColor();
 
             
