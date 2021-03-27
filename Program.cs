@@ -23,7 +23,7 @@ namespace cebolinha
             Console.ForegroundColor=ConsoleColor.DarkMagenta;
             string frase = Console.ReadLine();
             Console.Clear();
-            Console.WriteLine(frase = frase.Replace("r", "l").Replace("rr","l").Replace("RR","L").Replace("R","L"));
+            Console.WriteLine(frase = frase.Replace("rr", "l").Replace("r","l").Replace("RR","L").Replace("R","L"));
             Console.ForegroundColor=ConsoleColor.DarkBlue;
             Console.WriteLine(""+nome+", obrigada por ajudar. Agora você é o cebolinha :D ");
             Console.ResetColor();
